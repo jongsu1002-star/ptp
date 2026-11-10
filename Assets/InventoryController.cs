@@ -23,7 +23,7 @@ public class InventoryController : MonoBehaviour
     int dragEndIndex = -1;          //내려놓을 아이템을          
     //InventoryItem[] items;
     //List<InventoryItem> list;
-
+    //깃 테스트
     //슬롯 초기화 메서드
     void InitSlotData()
     {

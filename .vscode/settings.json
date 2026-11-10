@@ -1,0 +1,1763 @@
+{
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.vs": true,
+        "**/.gitmodules": true,
+        "**/.vsconfig": true,
+        "**/*.booproj": true,
+        "**/*.pidb": true,
+        "**/*.suo": true,
+        "**/*.user": true,
+        "**/*.userprefs": true,
+        "**/*.unityproj": true,
+        "**/*.dll": true,
+        "**/*.exe": true,
+        "**/*.pdf": true,
+        "**/*.mid": true,
+        "**/*.midi": true,
+        "**/*.wav": true,
+        "**/*.gif": true,
+        "**/*.ico": true,
+        "**/*.jpg": true,
+        "**/*.jpeg": true,
+        "**/*.png": true,
+        "**/*.psd": true,
+        "**/*.tga": true,
+        "**/*.tif": true,
+        "**/*.tiff": true,
+        "**/*.3ds": true,
+        "**/*.3DS": true,
+        "**/*.fbx": true,
+        "**/*.FBX": true,
+        "**/*.lxo": true,
+        "**/*.LXO": true,
+        "**/*.ma": true,
+        "**/*.MA": true,
+        "**/*.obj": true,
+        "**/*.OBJ": true,
+        "**/*.asset": true,
+        "**/*.cubemap": true,
+        "**/*.flare": true,
+        "**/*.mat": true,
+        "**/*.meta": true,
+        "**/*.prefab": true,
+        "**/*.unity": true,
+        "build/": true,
+        "Build/": true,
+        "Library/": true,
+        "library/": true,
+        "obj/": true,
+        "Obj/": true,
+        "Logs/": true,
+        "logs/": true,
+        "ProjectSettings/": true,
+        "UserSettings/": true,
+        "temp/": true,
+        "Temp/": true
+    },
+    "files.associations": {
+        "*.asset": "yaml",
+        "*.meta": "yaml",
+        "*.prefab": "yaml",
+        "*.unity": "yaml",
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.sln": "*.csproj",
+        "*.slnx": "*.csproj"
+    },
+    "dotnet.defaultSolution": "Study14.slnx",
+    "vstuc.refreshOnSave": true,
+    "files.watcherExclude": {
+        "**/Library/**": true,
+        "**/Temp/**": true,
+        "**/Logs/**": true,
+        "**/obj/**": true
+    },
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.tabCompletion": "off",
+    "editor.acceptSuggestionOnEnter": "off",
+    "workbench.colorTheme":  "Dark Modern",
+    "editor.bracketPairColorization.enabled":  false,
+    "workbench.colorCustomizations":  {
+                                          "activityBar.background":  "#181818",
+                                          "activityBar.foreground":  "#D7D7D7",
+                                          "activityBar.inactiveForeground":  "#868686",
+                                          "sideBar.background":  "#181818",
+                                          "sideBar.foreground":  "#CCCCCC",
+                                          "sideBarTitle.foreground":  "#CCCCCC",
+                                          "sideBarSectionHeader.background":  "#181818",
+                                          "sideBarSectionHeader.foreground":  "#CCCCCC",
+                                          "list.hoverBackground":  "#2A2D2E",
+                                          "list.activeSelectionBackground":  "#04395E",
+                                          "list.activeSelectionForeground":  "#FFFFFF",
+                                          "list.inactiveSelectionBackground":  "#37373D",
+                                          "list.inactiveSelectionForeground":  "#FFFFFF",
+                                          "titleBar.activeBackground":  "#181818",
+                                          "titleBar.activeForeground":  "#CCCCCC",
+                                          "titleBar.inactiveBackground":  "#1F1F1F",
+                                          "titleBar.inactiveForeground":  "#9D9D9D",
+                                          "menubar.selectionBackground":  "#333333",
+                                          "menubar.selectionForeground":  "#FFFFFF",
+                                          "menu.background":  "#1F1F1F",
+                                          "menu.foreground":  "#CCCCCC",
+                                          "menu.selectionBackground":  "#04395E",
+                                          "menu.selectionForeground":  "#FFFFFF",
+                                          "menu.separatorBackground":  "#454545",
+                                          "editorGroupHeader.tabsBackground":  "#181818",
+                                          "tab.activeBackground":  "#1F1F1F",
+                                          "tab.activeForeground":  "#FFFFFF",
+                                          "tab.inactiveBackground":  "#181818",
+                                          "tab.inactiveForeground":  "#9D9D9D",
+                                          "tab.border":  "#2B2B2B",
+                                          "statusBar.background":  "#181818",
+                                          "statusBar.foreground":  "#CCCCCC",
+                                          "statusBar.noFolderBackground":  "#181818",
+                                          "panel.background":  "#1F1F1F",
+                                          "panelTitle.activeForeground":  "#FFFFFF",
+                                          "panelTitle.inactiveForeground":  "#9D9D9D",
+                                          "terminal.background":  "#1F1F1F",
+                                          "terminal.foreground":  "#CCCCCC",
+                                          "editor.foreground":  "#D4D4D4",
+                                          "outputView.background":  "#1F1F1F",
+                                          "outputViewStickyScroll.background":  "#1F1F1F",
+                                          "textCodeBlock.background":  "#252525",
+                                          "textPreformat.background":  "#252525",
+                                          "textPreformat.foreground":  "#D4D4D4",
+                                          "editor.background":  "#DAD7CE",
+                                          "editorLineNumber.foreground":  "#64645E",
+                                          "editorLineNumber.activeForeground":  "#252520",
+                                          "editorCursor.foreground":  "#202020",
+                                          "editor.selectionBackground":  "#AEC9DD",
+                                          "editor.inactiveSelectionBackground":  "#C5CDD0",
+                                          "editor.lineHighlightBackground":  "#CECBC2",
+                                          "editorIndentGuide.background1":  "#BDBAB1",
+                                          "editorIndentGuide.activeBackground1":  "#8A887F"
+                                      },
+    "editor.tokenColorCustomizations":  {
+                                            "textMateRules":  [
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs",
+                                                                                    "source.css",
+                                                                                    "source.uss",
+                                                                                    "text.xml",
+                                                                                    "source.json",
+                                                                                    "source.yaml"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#202020"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs meta.embedded",
+                                                                                    "source.cs source.groovy.embedded",
+                                                                                    "source.cs string meta.image.inline.markdown",
+                                                                                    "source.cs variable.legacy.builtin.python",
+                                                                                    "source.css meta.embedded",
+                                                                                    "source.css source.groovy.embedded",
+                                                                                    "source.css string meta.image.inline.markdown",
+                                                                                    "source.css variable.legacy.builtin.python",
+                                                                                    "source.uss meta.embedded",
+                                                                                    "source.uss source.groovy.embedded",
+                                                                                    "source.uss string meta.image.inline.markdown",
+                                                                                    "source.uss variable.legacy.builtin.python",
+                                                                                    "text.xml meta.embedded",
+                                                                                    "text.xml source.groovy.embedded",
+                                                                                    "text.xml string meta.image.inline.markdown",
+                                                                                    "text.xml variable.legacy.builtin.python",
+                                                                                    "source.json meta.embedded",
+                                                                                    "source.json source.groovy.embedded",
+                                                                                    "source.json string meta.image.inline.markdown",
+                                                                                    "source.json variable.legacy.builtin.python",
+                                                                                    "source.yaml meta.embedded",
+                                                                                    "source.yaml source.groovy.embedded",
+                                                                                    "source.yaml string meta.image.inline.markdown",
+                                                                                    "source.yaml variable.legacy.builtin.python"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#000000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs emphasis",
+                                                                                    "source.css emphasis",
+                                                                                    "source.uss emphasis",
+                                                                                    "text.xml emphasis",
+                                                                                    "source.json emphasis",
+                                                                                    "source.yaml emphasis"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "fontStyle":  "italic"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs strong",
+                                                                                    "source.css strong",
+                                                                                    "source.uss strong",
+                                                                                    "text.xml strong",
+                                                                                    "source.json strong",
+                                                                                    "source.yaml strong"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "fontStyle":  "bold"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs meta.diff.header",
+                                                                                    "source.css meta.diff.header",
+                                                                                    "source.uss meta.diff.header",
+                                                                                    "text.xml meta.diff.header",
+                                                                                    "source.json meta.diff.header",
+                                                                                    "source.yaml meta.diff.header"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#000080"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs comment",
+                                                                                    "source.css comment",
+                                                                                    "source.uss comment",
+                                                                                    "text.xml comment",
+                                                                                    "source.json comment",
+                                                                                    "source.yaml comment"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#008000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs constant.language",
+                                                                                    "source.css constant.language",
+                                                                                    "source.uss constant.language",
+                                                                                    "text.xml constant.language",
+                                                                                    "source.json constant.language",
+                                                                                    "source.yaml constant.language"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs constant.numeric",
+                                                                                    "source.cs variable.other.enummember",
+                                                                                    "source.cs keyword.operator.plus.exponent",
+                                                                                    "source.cs keyword.operator.minus.exponent",
+                                                                                    "source.css constant.numeric",
+                                                                                    "source.css variable.other.enummember",
+                                                                                    "source.css keyword.operator.plus.exponent",
+                                                                                    "source.css keyword.operator.minus.exponent",
+                                                                                    "source.uss constant.numeric",
+                                                                                    "source.uss variable.other.enummember",
+                                                                                    "source.uss keyword.operator.plus.exponent",
+                                                                                    "source.uss keyword.operator.minus.exponent",
+                                                                                    "text.xml constant.numeric",
+                                                                                    "text.xml variable.other.enummember",
+                                                                                    "text.xml keyword.operator.plus.exponent",
+                                                                                    "text.xml keyword.operator.minus.exponent",
+                                                                                    "source.json constant.numeric",
+                                                                                    "source.json variable.other.enummember",
+                                                                                    "source.json keyword.operator.plus.exponent",
+                                                                                    "source.json keyword.operator.minus.exponent",
+                                                                                    "source.yaml constant.numeric",
+                                                                                    "source.yaml variable.other.enummember",
+                                                                                    "source.yaml keyword.operator.plus.exponent",
+                                                                                    "source.yaml keyword.operator.minus.exponent"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#098658"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs constant.regexp",
+                                                                                    "source.css constant.regexp",
+                                                                                    "source.uss constant.regexp",
+                                                                                    "text.xml constant.regexp",
+                                                                                    "source.json constant.regexp",
+                                                                                    "source.yaml constant.regexp"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#811f3f"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs entity.name.tag",
+                                                                                    "source.css entity.name.tag",
+                                                                                    "source.uss entity.name.tag",
+                                                                                    "text.xml entity.name.tag",
+                                                                                    "source.json entity.name.tag",
+                                                                                    "source.yaml entity.name.tag"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#800000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs entity.name.selector",
+                                                                                    "source.css entity.name.selector",
+                                                                                    "source.uss entity.name.selector",
+                                                                                    "text.xml entity.name.selector",
+                                                                                    "source.json entity.name.selector",
+                                                                                    "source.yaml entity.name.selector"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#800000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs entity.other.attribute-name",
+                                                                                    "source.css entity.other.attribute-name",
+                                                                                    "source.uss entity.other.attribute-name",
+                                                                                    "text.xml entity.other.attribute-name",
+                                                                                    "source.json entity.other.attribute-name",
+                                                                                    "source.yaml entity.other.attribute-name"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#e50000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs entity.other.attribute-name.class.css",
+                                                                                    "source.cs source.css entity.other.attribute-name.class",
+                                                                                    "source.cs entity.other.attribute-name.id.css",
+                                                                                    "source.cs entity.other.attribute-name.parent-selector.css",
+                                                                                    "source.cs entity.other.attribute-name.parent.less",
+                                                                                    "source.cs source.css entity.other.attribute-name.pseudo-class",
+                                                                                    "source.cs entity.other.attribute-name.pseudo-element.css",
+                                                                                    "source.cs source.css.less entity.other.attribute-name.id",
+                                                                                    "source.cs entity.other.attribute-name.scss",
+                                                                                    "source.css entity.other.attribute-name.class.css",
+                                                                                    "source.css source.css entity.other.attribute-name.class",
+                                                                                    "source.css entity.other.attribute-name.id.css",
+                                                                                    "source.css entity.other.attribute-name.parent-selector.css",
+                                                                                    "source.css entity.other.attribute-name.parent.less",
+                                                                                    "source.css source.css entity.other.attribute-name.pseudo-class",
+                                                                                    "source.css entity.other.attribute-name.pseudo-element.css",
+                                                                                    "source.css source.css.less entity.other.attribute-name.id",
+                                                                                    "source.css entity.other.attribute-name.scss",
+                                                                                    "source.uss entity.other.attribute-name.class.css",
+                                                                                    "source.uss source.css entity.other.attribute-name.class",
+                                                                                    "source.uss entity.other.attribute-name.id.css",
+                                                                                    "source.uss entity.other.attribute-name.parent-selector.css",
+                                                                                    "source.uss entity.other.attribute-name.parent.less",
+                                                                                    "source.uss source.css entity.other.attribute-name.pseudo-class",
+                                                                                    "source.uss entity.other.attribute-name.pseudo-element.css",
+                                                                                    "source.uss source.css.less entity.other.attribute-name.id",
+                                                                                    "source.uss entity.other.attribute-name.scss",
+                                                                                    "text.xml entity.other.attribute-name.class.css",
+                                                                                    "text.xml source.css entity.other.attribute-name.class",
+                                                                                    "text.xml entity.other.attribute-name.id.css",
+                                                                                    "text.xml entity.other.attribute-name.parent-selector.css",
+                                                                                    "text.xml entity.other.attribute-name.parent.less",
+                                                                                    "text.xml source.css entity.other.attribute-name.pseudo-class",
+                                                                                    "text.xml entity.other.attribute-name.pseudo-element.css",
+                                                                                    "text.xml source.css.less entity.other.attribute-name.id",
+                                                                                    "text.xml entity.other.attribute-name.scss",
+                                                                                    "source.json entity.other.attribute-name.class.css",
+                                                                                    "source.json source.css entity.other.attribute-name.class",
+                                                                                    "source.json entity.other.attribute-name.id.css",
+                                                                                    "source.json entity.other.attribute-name.parent-selector.css",
+                                                                                    "source.json entity.other.attribute-name.parent.less",
+                                                                                    "source.json source.css entity.other.attribute-name.pseudo-class",
+                                                                                    "source.json entity.other.attribute-name.pseudo-element.css",
+                                                                                    "source.json source.css.less entity.other.attribute-name.id",
+                                                                                    "source.json entity.other.attribute-name.scss",
+                                                                                    "source.yaml entity.other.attribute-name.class.css",
+                                                                                    "source.yaml source.css entity.other.attribute-name.class",
+                                                                                    "source.yaml entity.other.attribute-name.id.css",
+                                                                                    "source.yaml entity.other.attribute-name.parent-selector.css",
+                                                                                    "source.yaml entity.other.attribute-name.parent.less",
+                                                                                    "source.yaml source.css entity.other.attribute-name.pseudo-class",
+                                                                                    "source.yaml entity.other.attribute-name.pseudo-element.css",
+                                                                                    "source.yaml source.css.less entity.other.attribute-name.id",
+                                                                                    "source.yaml entity.other.attribute-name.scss"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#800000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs invalid",
+                                                                                    "source.css invalid",
+                                                                                    "source.uss invalid",
+                                                                                    "text.xml invalid",
+                                                                                    "source.json invalid",
+                                                                                    "source.yaml invalid"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#cd3131"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs markup.underline",
+                                                                                    "source.css markup.underline",
+                                                                                    "source.uss markup.underline",
+                                                                                    "text.xml markup.underline",
+                                                                                    "source.json markup.underline",
+                                                                                    "source.yaml markup.underline"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "fontStyle":  "underline"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs markup.bold",
+                                                                                    "source.css markup.bold",
+                                                                                    "source.uss markup.bold",
+                                                                                    "text.xml markup.bold",
+                                                                                    "source.json markup.bold",
+                                                                                    "source.yaml markup.bold"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "fontStyle":  "bold",
+                                                                                       "foreground":  "#000080"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs markup.heading",
+                                                                                    "source.css markup.heading",
+                                                                                    "source.uss markup.heading",
+                                                                                    "text.xml markup.heading",
+                                                                                    "source.json markup.heading",
+                                                                                    "source.yaml markup.heading"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "fontStyle":  "bold",
+                                                                                       "foreground":  "#800000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs markup.italic",
+                                                                                    "source.css markup.italic",
+                                                                                    "source.uss markup.italic",
+                                                                                    "text.xml markup.italic",
+                                                                                    "source.json markup.italic",
+                                                                                    "source.yaml markup.italic"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "fontStyle":  "italic",
+                                                                                       "foreground":  "#800080"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs markup.strikethrough",
+                                                                                    "source.css markup.strikethrough",
+                                                                                    "source.uss markup.strikethrough",
+                                                                                    "text.xml markup.strikethrough",
+                                                                                    "source.json markup.strikethrough",
+                                                                                    "source.yaml markup.strikethrough"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "fontStyle":  "strikethrough"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs markup.inserted",
+                                                                                    "source.css markup.inserted",
+                                                                                    "source.uss markup.inserted",
+                                                                                    "text.xml markup.inserted",
+                                                                                    "source.json markup.inserted",
+                                                                                    "source.yaml markup.inserted"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#098658"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs markup.deleted",
+                                                                                    "source.css markup.deleted",
+                                                                                    "source.uss markup.deleted",
+                                                                                    "text.xml markup.deleted",
+                                                                                    "source.json markup.deleted",
+                                                                                    "source.yaml markup.deleted"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#a31515"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs markup.changed",
+                                                                                    "source.css markup.changed",
+                                                                                    "source.uss markup.changed",
+                                                                                    "text.xml markup.changed",
+                                                                                    "source.json markup.changed",
+                                                                                    "source.yaml markup.changed"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0451a5"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs punctuation.definition.quote.begin.markdown",
+                                                                                    "source.cs punctuation.definition.list.begin.markdown",
+                                                                                    "source.css punctuation.definition.quote.begin.markdown",
+                                                                                    "source.css punctuation.definition.list.begin.markdown",
+                                                                                    "source.uss punctuation.definition.quote.begin.markdown",
+                                                                                    "source.uss punctuation.definition.list.begin.markdown",
+                                                                                    "text.xml punctuation.definition.quote.begin.markdown",
+                                                                                    "text.xml punctuation.definition.list.begin.markdown",
+                                                                                    "source.json punctuation.definition.quote.begin.markdown",
+                                                                                    "source.json punctuation.definition.list.begin.markdown",
+                                                                                    "source.yaml punctuation.definition.quote.begin.markdown",
+                                                                                    "source.yaml punctuation.definition.list.begin.markdown"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0451a5"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs markup.inline.raw",
+                                                                                    "source.css markup.inline.raw",
+                                                                                    "source.uss markup.inline.raw",
+                                                                                    "text.xml markup.inline.raw",
+                                                                                    "source.json markup.inline.raw",
+                                                                                    "source.yaml markup.inline.raw"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#800000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs punctuation.definition.tag",
+                                                                                    "source.css punctuation.definition.tag",
+                                                                                    "source.uss punctuation.definition.tag",
+                                                                                    "text.xml punctuation.definition.tag",
+                                                                                    "source.json punctuation.definition.tag",
+                                                                                    "source.yaml punctuation.definition.tag"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#800000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs meta.preprocessor",
+                                                                                    "source.cs entity.name.function.preprocessor",
+                                                                                    "source.css meta.preprocessor",
+                                                                                    "source.css entity.name.function.preprocessor",
+                                                                                    "source.uss meta.preprocessor",
+                                                                                    "source.uss entity.name.function.preprocessor",
+                                                                                    "text.xml meta.preprocessor",
+                                                                                    "text.xml entity.name.function.preprocessor",
+                                                                                    "source.json meta.preprocessor",
+                                                                                    "source.json entity.name.function.preprocessor",
+                                                                                    "source.yaml meta.preprocessor",
+                                                                                    "source.yaml entity.name.function.preprocessor"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs meta.preprocessor.string",
+                                                                                    "source.css meta.preprocessor.string",
+                                                                                    "source.uss meta.preprocessor.string",
+                                                                                    "text.xml meta.preprocessor.string",
+                                                                                    "source.json meta.preprocessor.string",
+                                                                                    "source.yaml meta.preprocessor.string"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#a31515"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs meta.preprocessor.numeric",
+                                                                                    "source.css meta.preprocessor.numeric",
+                                                                                    "source.uss meta.preprocessor.numeric",
+                                                                                    "text.xml meta.preprocessor.numeric",
+                                                                                    "source.json meta.preprocessor.numeric",
+                                                                                    "source.yaml meta.preprocessor.numeric"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#098658"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs meta.structure.dictionary.key.python",
+                                                                                    "source.css meta.structure.dictionary.key.python",
+                                                                                    "source.uss meta.structure.dictionary.key.python",
+                                                                                    "text.xml meta.structure.dictionary.key.python",
+                                                                                    "source.json meta.structure.dictionary.key.python",
+                                                                                    "source.yaml meta.structure.dictionary.key.python"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0451a5"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs storage",
+                                                                                    "source.css storage",
+                                                                                    "source.uss storage",
+                                                                                    "text.xml storage",
+                                                                                    "source.json storage",
+                                                                                    "source.yaml storage"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs storage.type",
+                                                                                    "source.css storage.type",
+                                                                                    "source.uss storage.type",
+                                                                                    "text.xml storage.type",
+                                                                                    "source.json storage.type",
+                                                                                    "source.yaml storage.type"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs storage.modifier",
+                                                                                    "source.cs keyword.operator.noexcept",
+                                                                                    "source.css storage.modifier",
+                                                                                    "source.css keyword.operator.noexcept",
+                                                                                    "source.uss storage.modifier",
+                                                                                    "source.uss keyword.operator.noexcept",
+                                                                                    "text.xml storage.modifier",
+                                                                                    "text.xml keyword.operator.noexcept",
+                                                                                    "source.json storage.modifier",
+                                                                                    "source.json keyword.operator.noexcept",
+                                                                                    "source.yaml storage.modifier",
+                                                                                    "source.yaml keyword.operator.noexcept"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs string",
+                                                                                    "source.cs meta.embedded.assembly",
+                                                                                    "source.css string",
+                                                                                    "source.css meta.embedded.assembly",
+                                                                                    "source.uss string",
+                                                                                    "source.uss meta.embedded.assembly",
+                                                                                    "text.xml string",
+                                                                                    "text.xml meta.embedded.assembly",
+                                                                                    "source.json string",
+                                                                                    "source.json meta.embedded.assembly",
+                                                                                    "source.yaml string",
+                                                                                    "source.yaml meta.embedded.assembly"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#a31515"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs string.comment.buffered.block.pug",
+                                                                                    "source.cs string.quoted.pug",
+                                                                                    "source.cs string.interpolated.pug",
+                                                                                    "source.cs string.unquoted.plain.in.yaml",
+                                                                                    "source.cs string.unquoted.plain.out.yaml",
+                                                                                    "source.cs string.unquoted.block.yaml",
+                                                                                    "source.cs string.quoted.single.yaml",
+                                                                                    "source.cs string.quoted.double.xml",
+                                                                                    "source.cs string.quoted.single.xml",
+                                                                                    "source.cs string.unquoted.cdata.xml",
+                                                                                    "source.cs string.quoted.double.html",
+                                                                                    "source.cs string.quoted.single.html",
+                                                                                    "source.cs string.unquoted.html",
+                                                                                    "source.cs string.quoted.single.handlebars",
+                                                                                    "source.cs string.quoted.double.handlebars",
+                                                                                    "source.css string.comment.buffered.block.pug",
+                                                                                    "source.css string.quoted.pug",
+                                                                                    "source.css string.interpolated.pug",
+                                                                                    "source.css string.unquoted.plain.in.yaml",
+                                                                                    "source.css string.unquoted.plain.out.yaml",
+                                                                                    "source.css string.unquoted.block.yaml",
+                                                                                    "source.css string.quoted.single.yaml",
+                                                                                    "source.css string.quoted.double.xml",
+                                                                                    "source.css string.quoted.single.xml",
+                                                                                    "source.css string.unquoted.cdata.xml",
+                                                                                    "source.css string.quoted.double.html",
+                                                                                    "source.css string.quoted.single.html",
+                                                                                    "source.css string.unquoted.html",
+                                                                                    "source.css string.quoted.single.handlebars",
+                                                                                    "source.css string.quoted.double.handlebars",
+                                                                                    "source.uss string.comment.buffered.block.pug",
+                                                                                    "source.uss string.quoted.pug",
+                                                                                    "source.uss string.interpolated.pug",
+                                                                                    "source.uss string.unquoted.plain.in.yaml",
+                                                                                    "source.uss string.unquoted.plain.out.yaml",
+                                                                                    "source.uss string.unquoted.block.yaml",
+                                                                                    "source.uss string.quoted.single.yaml",
+                                                                                    "source.uss string.quoted.double.xml",
+                                                                                    "source.uss string.quoted.single.xml",
+                                                                                    "source.uss string.unquoted.cdata.xml",
+                                                                                    "source.uss string.quoted.double.html",
+                                                                                    "source.uss string.quoted.single.html",
+                                                                                    "source.uss string.unquoted.html",
+                                                                                    "source.uss string.quoted.single.handlebars",
+                                                                                    "source.uss string.quoted.double.handlebars",
+                                                                                    "text.xml string.comment.buffered.block.pug",
+                                                                                    "text.xml string.quoted.pug",
+                                                                                    "text.xml string.interpolated.pug",
+                                                                                    "text.xml string.unquoted.plain.in.yaml",
+                                                                                    "text.xml string.unquoted.plain.out.yaml",
+                                                                                    "text.xml string.unquoted.block.yaml",
+                                                                                    "text.xml string.quoted.single.yaml",
+                                                                                    "text.xml string.quoted.double.xml",
+                                                                                    "text.xml string.quoted.single.xml",
+                                                                                    "text.xml string.unquoted.cdata.xml",
+                                                                                    "text.xml string.quoted.double.html",
+                                                                                    "text.xml string.quoted.single.html",
+                                                                                    "text.xml string.unquoted.html",
+                                                                                    "text.xml string.quoted.single.handlebars",
+                                                                                    "text.xml string.quoted.double.handlebars",
+                                                                                    "source.json string.comment.buffered.block.pug",
+                                                                                    "source.json string.quoted.pug",
+                                                                                    "source.json string.interpolated.pug",
+                                                                                    "source.json string.unquoted.plain.in.yaml",
+                                                                                    "source.json string.unquoted.plain.out.yaml",
+                                                                                    "source.json string.unquoted.block.yaml",
+                                                                                    "source.json string.quoted.single.yaml",
+                                                                                    "source.json string.quoted.double.xml",
+                                                                                    "source.json string.quoted.single.xml",
+                                                                                    "source.json string.unquoted.cdata.xml",
+                                                                                    "source.json string.quoted.double.html",
+                                                                                    "source.json string.quoted.single.html",
+                                                                                    "source.json string.unquoted.html",
+                                                                                    "source.json string.quoted.single.handlebars",
+                                                                                    "source.json string.quoted.double.handlebars",
+                                                                                    "source.yaml string.comment.buffered.block.pug",
+                                                                                    "source.yaml string.quoted.pug",
+                                                                                    "source.yaml string.interpolated.pug",
+                                                                                    "source.yaml string.unquoted.plain.in.yaml",
+                                                                                    "source.yaml string.unquoted.plain.out.yaml",
+                                                                                    "source.yaml string.unquoted.block.yaml",
+                                                                                    "source.yaml string.quoted.single.yaml",
+                                                                                    "source.yaml string.quoted.double.xml",
+                                                                                    "source.yaml string.quoted.single.xml",
+                                                                                    "source.yaml string.unquoted.cdata.xml",
+                                                                                    "source.yaml string.quoted.double.html",
+                                                                                    "source.yaml string.quoted.single.html",
+                                                                                    "source.yaml string.unquoted.html",
+                                                                                    "source.yaml string.quoted.single.handlebars",
+                                                                                    "source.yaml string.quoted.double.handlebars"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs string.regexp",
+                                                                                    "source.css string.regexp",
+                                                                                    "source.uss string.regexp",
+                                                                                    "text.xml string.regexp",
+                                                                                    "source.json string.regexp",
+                                                                                    "source.yaml string.regexp"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#811f3f"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs punctuation.definition.template-expression.begin",
+                                                                                    "source.cs punctuation.definition.template-expression.end",
+                                                                                    "source.cs punctuation.section.embedded",
+                                                                                    "source.css punctuation.definition.template-expression.begin",
+                                                                                    "source.css punctuation.definition.template-expression.end",
+                                                                                    "source.css punctuation.section.embedded",
+                                                                                    "source.uss punctuation.definition.template-expression.begin",
+                                                                                    "source.uss punctuation.definition.template-expression.end",
+                                                                                    "source.uss punctuation.section.embedded",
+                                                                                    "text.xml punctuation.definition.template-expression.begin",
+                                                                                    "text.xml punctuation.definition.template-expression.end",
+                                                                                    "text.xml punctuation.section.embedded",
+                                                                                    "source.json punctuation.definition.template-expression.begin",
+                                                                                    "source.json punctuation.definition.template-expression.end",
+                                                                                    "source.json punctuation.section.embedded",
+                                                                                    "source.yaml punctuation.definition.template-expression.begin",
+                                                                                    "source.yaml punctuation.definition.template-expression.end",
+                                                                                    "source.yaml punctuation.section.embedded"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs meta.template.expression",
+                                                                                    "source.css meta.template.expression",
+                                                                                    "source.uss meta.template.expression",
+                                                                                    "text.xml meta.template.expression",
+                                                                                    "source.json meta.template.expression",
+                                                                                    "source.yaml meta.template.expression"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#000000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs support.constant.property-value",
+                                                                                    "source.cs support.constant.font-name",
+                                                                                    "source.cs support.constant.media-type",
+                                                                                    "source.cs support.constant.media",
+                                                                                    "source.cs constant.other.color.rgb-value",
+                                                                                    "source.cs constant.other.rgb-value",
+                                                                                    "source.cs support.constant.color",
+                                                                                    "source.css support.constant.property-value",
+                                                                                    "source.css support.constant.font-name",
+                                                                                    "source.css support.constant.media-type",
+                                                                                    "source.css support.constant.media",
+                                                                                    "source.css constant.other.color.rgb-value",
+                                                                                    "source.css constant.other.rgb-value",
+                                                                                    "source.css support.constant.color",
+                                                                                    "source.uss support.constant.property-value",
+                                                                                    "source.uss support.constant.font-name",
+                                                                                    "source.uss support.constant.media-type",
+                                                                                    "source.uss support.constant.media",
+                                                                                    "source.uss constant.other.color.rgb-value",
+                                                                                    "source.uss constant.other.rgb-value",
+                                                                                    "source.uss support.constant.color",
+                                                                                    "text.xml support.constant.property-value",
+                                                                                    "text.xml support.constant.font-name",
+                                                                                    "text.xml support.constant.media-type",
+                                                                                    "text.xml support.constant.media",
+                                                                                    "text.xml constant.other.color.rgb-value",
+                                                                                    "text.xml constant.other.rgb-value",
+                                                                                    "text.xml support.constant.color",
+                                                                                    "source.json support.constant.property-value",
+                                                                                    "source.json support.constant.font-name",
+                                                                                    "source.json support.constant.media-type",
+                                                                                    "source.json support.constant.media",
+                                                                                    "source.json constant.other.color.rgb-value",
+                                                                                    "source.json constant.other.rgb-value",
+                                                                                    "source.json support.constant.color",
+                                                                                    "source.yaml support.constant.property-value",
+                                                                                    "source.yaml support.constant.font-name",
+                                                                                    "source.yaml support.constant.media-type",
+                                                                                    "source.yaml support.constant.media",
+                                                                                    "source.yaml constant.other.color.rgb-value",
+                                                                                    "source.yaml constant.other.rgb-value",
+                                                                                    "source.yaml support.constant.color"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0451a5"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs support.type.vendored.property-name",
+                                                                                    "source.cs support.type.property-name",
+                                                                                    "source.cs source.css variable",
+                                                                                    "source.cs source.coffee.embedded",
+                                                                                    "source.css support.type.vendored.property-name",
+                                                                                    "source.css support.type.property-name",
+                                                                                    "source.css source.css variable",
+                                                                                    "source.css source.coffee.embedded",
+                                                                                    "source.uss support.type.vendored.property-name",
+                                                                                    "source.uss support.type.property-name",
+                                                                                    "source.uss source.css variable",
+                                                                                    "source.uss source.coffee.embedded",
+                                                                                    "text.xml support.type.vendored.property-name",
+                                                                                    "text.xml support.type.property-name",
+                                                                                    "text.xml source.css variable",
+                                                                                    "text.xml source.coffee.embedded",
+                                                                                    "source.json support.type.vendored.property-name",
+                                                                                    "source.json support.type.property-name",
+                                                                                    "source.json source.css variable",
+                                                                                    "source.json source.coffee.embedded",
+                                                                                    "source.yaml support.type.vendored.property-name",
+                                                                                    "source.yaml support.type.property-name",
+                                                                                    "source.yaml source.css variable",
+                                                                                    "source.yaml source.coffee.embedded"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#e50000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs support.type.property-name.json",
+                                                                                    "source.css support.type.property-name.json",
+                                                                                    "source.uss support.type.property-name.json",
+                                                                                    "text.xml support.type.property-name.json",
+                                                                                    "source.json support.type.property-name.json",
+                                                                                    "source.yaml support.type.property-name.json"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0451a5"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs keyword",
+                                                                                    "source.css keyword",
+                                                                                    "source.uss keyword",
+                                                                                    "text.xml keyword",
+                                                                                    "source.json keyword",
+                                                                                    "source.yaml keyword"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs keyword.control",
+                                                                                    "source.css keyword.control",
+                                                                                    "source.uss keyword.control",
+                                                                                    "text.xml keyword.control",
+                                                                                    "source.json keyword.control",
+                                                                                    "source.yaml keyword.control"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs keyword.operator",
+                                                                                    "source.css keyword.operator",
+                                                                                    "source.uss keyword.operator",
+                                                                                    "text.xml keyword.operator",
+                                                                                    "source.json keyword.operator",
+                                                                                    "source.yaml keyword.operator"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#000000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs keyword.operator.new",
+                                                                                    "source.cs keyword.operator.expression",
+                                                                                    "source.cs keyword.operator.cast",
+                                                                                    "source.cs keyword.operator.sizeof",
+                                                                                    "source.cs keyword.operator.alignof",
+                                                                                    "source.cs keyword.operator.typeid",
+                                                                                    "source.cs keyword.operator.alignas",
+                                                                                    "source.cs keyword.operator.instanceof",
+                                                                                    "source.cs keyword.operator.logical.python",
+                                                                                    "source.cs keyword.operator.wordlike",
+                                                                                    "source.css keyword.operator.new",
+                                                                                    "source.css keyword.operator.expression",
+                                                                                    "source.css keyword.operator.cast",
+                                                                                    "source.css keyword.operator.sizeof",
+                                                                                    "source.css keyword.operator.alignof",
+                                                                                    "source.css keyword.operator.typeid",
+                                                                                    "source.css keyword.operator.alignas",
+                                                                                    "source.css keyword.operator.instanceof",
+                                                                                    "source.css keyword.operator.logical.python",
+                                                                                    "source.css keyword.operator.wordlike",
+                                                                                    "source.uss keyword.operator.new",
+                                                                                    "source.uss keyword.operator.expression",
+                                                                                    "source.uss keyword.operator.cast",
+                                                                                    "source.uss keyword.operator.sizeof",
+                                                                                    "source.uss keyword.operator.alignof",
+                                                                                    "source.uss keyword.operator.typeid",
+                                                                                    "source.uss keyword.operator.alignas",
+                                                                                    "source.uss keyword.operator.instanceof",
+                                                                                    "source.uss keyword.operator.logical.python",
+                                                                                    "source.uss keyword.operator.wordlike",
+                                                                                    "text.xml keyword.operator.new",
+                                                                                    "text.xml keyword.operator.expression",
+                                                                                    "text.xml keyword.operator.cast",
+                                                                                    "text.xml keyword.operator.sizeof",
+                                                                                    "text.xml keyword.operator.alignof",
+                                                                                    "text.xml keyword.operator.typeid",
+                                                                                    "text.xml keyword.operator.alignas",
+                                                                                    "text.xml keyword.operator.instanceof",
+                                                                                    "text.xml keyword.operator.logical.python",
+                                                                                    "text.xml keyword.operator.wordlike",
+                                                                                    "source.json keyword.operator.new",
+                                                                                    "source.json keyword.operator.expression",
+                                                                                    "source.json keyword.operator.cast",
+                                                                                    "source.json keyword.operator.sizeof",
+                                                                                    "source.json keyword.operator.alignof",
+                                                                                    "source.json keyword.operator.typeid",
+                                                                                    "source.json keyword.operator.alignas",
+                                                                                    "source.json keyword.operator.instanceof",
+                                                                                    "source.json keyword.operator.logical.python",
+                                                                                    "source.json keyword.operator.wordlike",
+                                                                                    "source.yaml keyword.operator.new",
+                                                                                    "source.yaml keyword.operator.expression",
+                                                                                    "source.yaml keyword.operator.cast",
+                                                                                    "source.yaml keyword.operator.sizeof",
+                                                                                    "source.yaml keyword.operator.alignof",
+                                                                                    "source.yaml keyword.operator.typeid",
+                                                                                    "source.yaml keyword.operator.alignas",
+                                                                                    "source.yaml keyword.operator.instanceof",
+                                                                                    "source.yaml keyword.operator.logical.python",
+                                                                                    "source.yaml keyword.operator.wordlike"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs keyword.other.unit",
+                                                                                    "source.css keyword.other.unit",
+                                                                                    "source.uss keyword.other.unit",
+                                                                                    "text.xml keyword.other.unit",
+                                                                                    "source.json keyword.other.unit",
+                                                                                    "source.yaml keyword.other.unit"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#098658"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs punctuation.section.embedded.begin.php",
+                                                                                    "source.cs punctuation.section.embedded.end.php",
+                                                                                    "source.css punctuation.section.embedded.begin.php",
+                                                                                    "source.css punctuation.section.embedded.end.php",
+                                                                                    "source.uss punctuation.section.embedded.begin.php",
+                                                                                    "source.uss punctuation.section.embedded.end.php",
+                                                                                    "text.xml punctuation.section.embedded.begin.php",
+                                                                                    "text.xml punctuation.section.embedded.end.php",
+                                                                                    "source.json punctuation.section.embedded.begin.php",
+                                                                                    "source.json punctuation.section.embedded.end.php",
+                                                                                    "source.yaml punctuation.section.embedded.begin.php",
+                                                                                    "source.yaml punctuation.section.embedded.end.php"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#800000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs support.function.git-rebase",
+                                                                                    "source.css support.function.git-rebase",
+                                                                                    "source.uss support.function.git-rebase",
+                                                                                    "text.xml support.function.git-rebase",
+                                                                                    "source.json support.function.git-rebase",
+                                                                                    "source.yaml support.function.git-rebase"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0451a5"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs constant.sha.git-rebase",
+                                                                                    "source.css constant.sha.git-rebase",
+                                                                                    "source.uss constant.sha.git-rebase",
+                                                                                    "text.xml constant.sha.git-rebase",
+                                                                                    "source.json constant.sha.git-rebase",
+                                                                                    "source.yaml constant.sha.git-rebase"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#098658"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs storage.modifier.import.java",
+                                                                                    "source.cs variable.language.wildcard.java",
+                                                                                    "source.cs storage.modifier.package.java",
+                                                                                    "source.css storage.modifier.import.java",
+                                                                                    "source.css variable.language.wildcard.java",
+                                                                                    "source.css storage.modifier.package.java",
+                                                                                    "source.uss storage.modifier.import.java",
+                                                                                    "source.uss variable.language.wildcard.java",
+                                                                                    "source.uss storage.modifier.package.java",
+                                                                                    "text.xml storage.modifier.import.java",
+                                                                                    "text.xml variable.language.wildcard.java",
+                                                                                    "text.xml storage.modifier.package.java",
+                                                                                    "source.json storage.modifier.import.java",
+                                                                                    "source.json variable.language.wildcard.java",
+                                                                                    "source.json storage.modifier.package.java",
+                                                                                    "source.yaml storage.modifier.import.java",
+                                                                                    "source.yaml variable.language.wildcard.java",
+                                                                                    "source.yaml storage.modifier.package.java"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#000000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs variable.language",
+                                                                                    "source.css variable.language",
+                                                                                    "source.uss variable.language",
+                                                                                    "text.xml variable.language",
+                                                                                    "source.json variable.language",
+                                                                                    "source.yaml variable.language"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs entity.name.function",
+                                                                                    "source.cs support.function",
+                                                                                    "source.cs support.constant.handlebars",
+                                                                                    "source.cs source.powershell variable.other.member",
+                                                                                    "source.cs entity.name.operator.custom-literal",
+                                                                                    "source.css entity.name.function",
+                                                                                    "source.css support.function",
+                                                                                    "source.css support.constant.handlebars",
+                                                                                    "source.css source.powershell variable.other.member",
+                                                                                    "source.css entity.name.operator.custom-literal",
+                                                                                    "source.uss entity.name.function",
+                                                                                    "source.uss support.function",
+                                                                                    "source.uss support.constant.handlebars",
+                                                                                    "source.uss source.powershell variable.other.member",
+                                                                                    "source.uss entity.name.operator.custom-literal",
+                                                                                    "text.xml entity.name.function",
+                                                                                    "text.xml support.function",
+                                                                                    "text.xml support.constant.handlebars",
+                                                                                    "text.xml source.powershell variable.other.member",
+                                                                                    "text.xml entity.name.operator.custom-literal",
+                                                                                    "source.json entity.name.function",
+                                                                                    "source.json support.function",
+                                                                                    "source.json support.constant.handlebars",
+                                                                                    "source.json source.powershell variable.other.member",
+                                                                                    "source.json entity.name.operator.custom-literal",
+                                                                                    "source.yaml entity.name.function",
+                                                                                    "source.yaml support.function",
+                                                                                    "source.yaml support.constant.handlebars",
+                                                                                    "source.yaml source.powershell variable.other.member",
+                                                                                    "source.yaml entity.name.operator.custom-literal"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#795E26"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs support.class",
+                                                                                    "source.cs support.type",
+                                                                                    "source.cs entity.name.type",
+                                                                                    "source.cs entity.name.namespace",
+                                                                                    "source.cs entity.other.attribute",
+                                                                                    "source.cs entity.name.scope-resolution",
+                                                                                    "source.cs entity.name.class",
+                                                                                    "source.cs storage.type.numeric.go",
+                                                                                    "source.cs storage.type.byte.go",
+                                                                                    "source.cs storage.type.boolean.go",
+                                                                                    "source.cs storage.type.string.go",
+                                                                                    "source.cs storage.type.uintptr.go",
+                                                                                    "source.cs storage.type.error.go",
+                                                                                    "source.cs storage.type.rune.go",
+                                                                                    "source.cs storage.type.cs",
+                                                                                    "source.cs storage.type.generic.cs",
+                                                                                    "source.cs storage.type.modifier.cs",
+                                                                                    "source.cs storage.type.variable.cs",
+                                                                                    "source.cs storage.type.annotation.java",
+                                                                                    "source.cs storage.type.generic.java",
+                                                                                    "source.cs storage.type.java",
+                                                                                    "source.cs storage.type.object.array.java",
+                                                                                    "source.cs storage.type.primitive.array.java",
+                                                                                    "source.cs storage.type.primitive.java",
+                                                                                    "source.cs storage.type.token.java",
+                                                                                    "source.cs storage.type.groovy",
+                                                                                    "source.cs storage.type.annotation.groovy",
+                                                                                    "source.cs storage.type.parameters.groovy",
+                                                                                    "source.cs storage.type.generic.groovy",
+                                                                                    "source.cs storage.type.object.array.groovy",
+                                                                                    "source.cs storage.type.primitive.array.groovy",
+                                                                                    "source.cs storage.type.primitive.groovy",
+                                                                                    "source.css support.class",
+                                                                                    "source.css support.type",
+                                                                                    "source.css entity.name.type",
+                                                                                    "source.css entity.name.namespace",
+                                                                                    "source.css entity.other.attribute",
+                                                                                    "source.css entity.name.scope-resolution",
+                                                                                    "source.css entity.name.class",
+                                                                                    "source.css storage.type.numeric.go",
+                                                                                    "source.css storage.type.byte.go",
+                                                                                    "source.css storage.type.boolean.go",
+                                                                                    "source.css storage.type.string.go",
+                                                                                    "source.css storage.type.uintptr.go",
+                                                                                    "source.css storage.type.error.go",
+                                                                                    "source.css storage.type.rune.go",
+                                                                                    "source.css storage.type.cs",
+                                                                                    "source.css storage.type.generic.cs",
+                                                                                    "source.css storage.type.modifier.cs",
+                                                                                    "source.css storage.type.variable.cs",
+                                                                                    "source.css storage.type.annotation.java",
+                                                                                    "source.css storage.type.generic.java",
+                                                                                    "source.css storage.type.java",
+                                                                                    "source.css storage.type.object.array.java",
+                                                                                    "source.css storage.type.primitive.array.java",
+                                                                                    "source.css storage.type.primitive.java",
+                                                                                    "source.css storage.type.token.java",
+                                                                                    "source.css storage.type.groovy",
+                                                                                    "source.css storage.type.annotation.groovy",
+                                                                                    "source.css storage.type.parameters.groovy",
+                                                                                    "source.css storage.type.generic.groovy",
+                                                                                    "source.css storage.type.object.array.groovy",
+                                                                                    "source.css storage.type.primitive.array.groovy",
+                                                                                    "source.css storage.type.primitive.groovy",
+                                                                                    "source.uss support.class",
+                                                                                    "source.uss support.type",
+                                                                                    "source.uss entity.name.type",
+                                                                                    "source.uss entity.name.namespace",
+                                                                                    "source.uss entity.other.attribute",
+                                                                                    "source.uss entity.name.scope-resolution",
+                                                                                    "source.uss entity.name.class",
+                                                                                    "source.uss storage.type.numeric.go",
+                                                                                    "source.uss storage.type.byte.go",
+                                                                                    "source.uss storage.type.boolean.go",
+                                                                                    "source.uss storage.type.string.go",
+                                                                                    "source.uss storage.type.uintptr.go",
+                                                                                    "source.uss storage.type.error.go",
+                                                                                    "source.uss storage.type.rune.go",
+                                                                                    "source.uss storage.type.cs",
+                                                                                    "source.uss storage.type.generic.cs",
+                                                                                    "source.uss storage.type.modifier.cs",
+                                                                                    "source.uss storage.type.variable.cs",
+                                                                                    "source.uss storage.type.annotation.java",
+                                                                                    "source.uss storage.type.generic.java",
+                                                                                    "source.uss storage.type.java",
+                                                                                    "source.uss storage.type.object.array.java",
+                                                                                    "source.uss storage.type.primitive.array.java",
+                                                                                    "source.uss storage.type.primitive.java",
+                                                                                    "source.uss storage.type.token.java",
+                                                                                    "source.uss storage.type.groovy",
+                                                                                    "source.uss storage.type.annotation.groovy",
+                                                                                    "source.uss storage.type.parameters.groovy",
+                                                                                    "source.uss storage.type.generic.groovy",
+                                                                                    "source.uss storage.type.object.array.groovy",
+                                                                                    "source.uss storage.type.primitive.array.groovy",
+                                                                                    "source.uss storage.type.primitive.groovy",
+                                                                                    "text.xml support.class",
+                                                                                    "text.xml support.type",
+                                                                                    "text.xml entity.name.type",
+                                                                                    "text.xml entity.name.namespace",
+                                                                                    "text.xml entity.other.attribute",
+                                                                                    "text.xml entity.name.scope-resolution",
+                                                                                    "text.xml entity.name.class",
+                                                                                    "text.xml storage.type.numeric.go",
+                                                                                    "text.xml storage.type.byte.go",
+                                                                                    "text.xml storage.type.boolean.go",
+                                                                                    "text.xml storage.type.string.go",
+                                                                                    "text.xml storage.type.uintptr.go",
+                                                                                    "text.xml storage.type.error.go",
+                                                                                    "text.xml storage.type.rune.go",
+                                                                                    "text.xml storage.type.cs",
+                                                                                    "text.xml storage.type.generic.cs",
+                                                                                    "text.xml storage.type.modifier.cs",
+                                                                                    "text.xml storage.type.variable.cs",
+                                                                                    "text.xml storage.type.annotation.java",
+                                                                                    "text.xml storage.type.generic.java",
+                                                                                    "text.xml storage.type.java",
+                                                                                    "text.xml storage.type.object.array.java",
+                                                                                    "text.xml storage.type.primitive.array.java",
+                                                                                    "text.xml storage.type.primitive.java",
+                                                                                    "text.xml storage.type.token.java",
+                                                                                    "text.xml storage.type.groovy",
+                                                                                    "text.xml storage.type.annotation.groovy",
+                                                                                    "text.xml storage.type.parameters.groovy",
+                                                                                    "text.xml storage.type.generic.groovy",
+                                                                                    "text.xml storage.type.object.array.groovy",
+                                                                                    "text.xml storage.type.primitive.array.groovy",
+                                                                                    "text.xml storage.type.primitive.groovy",
+                                                                                    "source.json support.class",
+                                                                                    "source.json support.type",
+                                                                                    "source.json entity.name.type",
+                                                                                    "source.json entity.name.namespace",
+                                                                                    "source.json entity.other.attribute",
+                                                                                    "source.json entity.name.scope-resolution",
+                                                                                    "source.json entity.name.class",
+                                                                                    "source.json storage.type.numeric.go",
+                                                                                    "source.json storage.type.byte.go",
+                                                                                    "source.json storage.type.boolean.go",
+                                                                                    "source.json storage.type.string.go",
+                                                                                    "source.json storage.type.uintptr.go",
+                                                                                    "source.json storage.type.error.go",
+                                                                                    "source.json storage.type.rune.go",
+                                                                                    "source.json storage.type.cs",
+                                                                                    "source.json storage.type.generic.cs",
+                                                                                    "source.json storage.type.modifier.cs",
+                                                                                    "source.json storage.type.variable.cs",
+                                                                                    "source.json storage.type.annotation.java",
+                                                                                    "source.json storage.type.generic.java",
+                                                                                    "source.json storage.type.java",
+                                                                                    "source.json storage.type.object.array.java",
+                                                                                    "source.json storage.type.primitive.array.java",
+                                                                                    "source.json storage.type.primitive.java",
+                                                                                    "source.json storage.type.token.java",
+                                                                                    "source.json storage.type.groovy",
+                                                                                    "source.json storage.type.annotation.groovy",
+                                                                                    "source.json storage.type.parameters.groovy",
+                                                                                    "source.json storage.type.generic.groovy",
+                                                                                    "source.json storage.type.object.array.groovy",
+                                                                                    "source.json storage.type.primitive.array.groovy",
+                                                                                    "source.json storage.type.primitive.groovy",
+                                                                                    "source.yaml support.class",
+                                                                                    "source.yaml support.type",
+                                                                                    "source.yaml entity.name.type",
+                                                                                    "source.yaml entity.name.namespace",
+                                                                                    "source.yaml entity.other.attribute",
+                                                                                    "source.yaml entity.name.scope-resolution",
+                                                                                    "source.yaml entity.name.class",
+                                                                                    "source.yaml storage.type.numeric.go",
+                                                                                    "source.yaml storage.type.byte.go",
+                                                                                    "source.yaml storage.type.boolean.go",
+                                                                                    "source.yaml storage.type.string.go",
+                                                                                    "source.yaml storage.type.uintptr.go",
+                                                                                    "source.yaml storage.type.error.go",
+                                                                                    "source.yaml storage.type.rune.go",
+                                                                                    "source.yaml storage.type.cs",
+                                                                                    "source.yaml storage.type.generic.cs",
+                                                                                    "source.yaml storage.type.modifier.cs",
+                                                                                    "source.yaml storage.type.variable.cs",
+                                                                                    "source.yaml storage.type.annotation.java",
+                                                                                    "source.yaml storage.type.generic.java",
+                                                                                    "source.yaml storage.type.java",
+                                                                                    "source.yaml storage.type.object.array.java",
+                                                                                    "source.yaml storage.type.primitive.array.java",
+                                                                                    "source.yaml storage.type.primitive.java",
+                                                                                    "source.yaml storage.type.token.java",
+                                                                                    "source.yaml storage.type.groovy",
+                                                                                    "source.yaml storage.type.annotation.groovy",
+                                                                                    "source.yaml storage.type.parameters.groovy",
+                                                                                    "source.yaml storage.type.generic.groovy",
+                                                                                    "source.yaml storage.type.object.array.groovy",
+                                                                                    "source.yaml storage.type.primitive.array.groovy",
+                                                                                    "source.yaml storage.type.primitive.groovy"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#267f99"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs meta.type.cast.expr",
+                                                                                    "source.cs meta.type.new.expr",
+                                                                                    "source.cs support.constant.math",
+                                                                                    "source.cs support.constant.dom",
+                                                                                    "source.cs support.constant.json",
+                                                                                    "source.cs entity.other.inherited-class",
+                                                                                    "source.cs punctuation.separator.namespace.ruby",
+                                                                                    "source.css meta.type.cast.expr",
+                                                                                    "source.css meta.type.new.expr",
+                                                                                    "source.css support.constant.math",
+                                                                                    "source.css support.constant.dom",
+                                                                                    "source.css support.constant.json",
+                                                                                    "source.css entity.other.inherited-class",
+                                                                                    "source.css punctuation.separator.namespace.ruby",
+                                                                                    "source.uss meta.type.cast.expr",
+                                                                                    "source.uss meta.type.new.expr",
+                                                                                    "source.uss support.constant.math",
+                                                                                    "source.uss support.constant.dom",
+                                                                                    "source.uss support.constant.json",
+                                                                                    "source.uss entity.other.inherited-class",
+                                                                                    "source.uss punctuation.separator.namespace.ruby",
+                                                                                    "text.xml meta.type.cast.expr",
+                                                                                    "text.xml meta.type.new.expr",
+                                                                                    "text.xml support.constant.math",
+                                                                                    "text.xml support.constant.dom",
+                                                                                    "text.xml support.constant.json",
+                                                                                    "text.xml entity.other.inherited-class",
+                                                                                    "text.xml punctuation.separator.namespace.ruby",
+                                                                                    "source.json meta.type.cast.expr",
+                                                                                    "source.json meta.type.new.expr",
+                                                                                    "source.json support.constant.math",
+                                                                                    "source.json support.constant.dom",
+                                                                                    "source.json support.constant.json",
+                                                                                    "source.json entity.other.inherited-class",
+                                                                                    "source.json punctuation.separator.namespace.ruby",
+                                                                                    "source.yaml meta.type.cast.expr",
+                                                                                    "source.yaml meta.type.new.expr",
+                                                                                    "source.yaml support.constant.math",
+                                                                                    "source.yaml support.constant.dom",
+                                                                                    "source.yaml support.constant.json",
+                                                                                    "source.yaml entity.other.inherited-class",
+                                                                                    "source.yaml punctuation.separator.namespace.ruby"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#267f99"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs keyword.control",
+                                                                                    "source.cs source.cpp keyword.operator.new",
+                                                                                    "source.cs source.cpp keyword.operator.delete",
+                                                                                    "source.cs keyword.other.using",
+                                                                                    "source.cs keyword.other.directive.using",
+                                                                                    "source.cs keyword.other.operator",
+                                                                                    "source.cs entity.name.operator",
+                                                                                    "source.css keyword.control",
+                                                                                    "source.css source.cpp keyword.operator.new",
+                                                                                    "source.css source.cpp keyword.operator.delete",
+                                                                                    "source.css keyword.other.using",
+                                                                                    "source.css keyword.other.directive.using",
+                                                                                    "source.css keyword.other.operator",
+                                                                                    "source.css entity.name.operator",
+                                                                                    "source.uss keyword.control",
+                                                                                    "source.uss source.cpp keyword.operator.new",
+                                                                                    "source.uss source.cpp keyword.operator.delete",
+                                                                                    "source.uss keyword.other.using",
+                                                                                    "source.uss keyword.other.directive.using",
+                                                                                    "source.uss keyword.other.operator",
+                                                                                    "source.uss entity.name.operator",
+                                                                                    "text.xml keyword.control",
+                                                                                    "text.xml source.cpp keyword.operator.new",
+                                                                                    "text.xml source.cpp keyword.operator.delete",
+                                                                                    "text.xml keyword.other.using",
+                                                                                    "text.xml keyword.other.directive.using",
+                                                                                    "text.xml keyword.other.operator",
+                                                                                    "text.xml entity.name.operator",
+                                                                                    "source.json keyword.control",
+                                                                                    "source.json source.cpp keyword.operator.new",
+                                                                                    "source.json source.cpp keyword.operator.delete",
+                                                                                    "source.json keyword.other.using",
+                                                                                    "source.json keyword.other.directive.using",
+                                                                                    "source.json keyword.other.operator",
+                                                                                    "source.json entity.name.operator",
+                                                                                    "source.yaml keyword.control",
+                                                                                    "source.yaml source.cpp keyword.operator.new",
+                                                                                    "source.yaml source.cpp keyword.operator.delete",
+                                                                                    "source.yaml keyword.other.using",
+                                                                                    "source.yaml keyword.other.directive.using",
+                                                                                    "source.yaml keyword.other.operator",
+                                                                                    "source.yaml entity.name.operator"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#AF00DB"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs variable",
+                                                                                    "source.cs meta.definition.variable.name",
+                                                                                    "source.cs support.variable",
+                                                                                    "source.cs entity.name.variable",
+                                                                                    "source.cs constant.other.placeholder",
+                                                                                    "source.css variable",
+                                                                                    "source.css meta.definition.variable.name",
+                                                                                    "source.css support.variable",
+                                                                                    "source.css entity.name.variable",
+                                                                                    "source.css constant.other.placeholder",
+                                                                                    "source.uss variable",
+                                                                                    "source.uss meta.definition.variable.name",
+                                                                                    "source.uss support.variable",
+                                                                                    "source.uss entity.name.variable",
+                                                                                    "source.uss constant.other.placeholder",
+                                                                                    "text.xml variable",
+                                                                                    "text.xml meta.definition.variable.name",
+                                                                                    "text.xml support.variable",
+                                                                                    "text.xml entity.name.variable",
+                                                                                    "text.xml constant.other.placeholder",
+                                                                                    "source.json variable",
+                                                                                    "source.json meta.definition.variable.name",
+                                                                                    "source.json support.variable",
+                                                                                    "source.json entity.name.variable",
+                                                                                    "source.json constant.other.placeholder",
+                                                                                    "source.yaml variable",
+                                                                                    "source.yaml meta.definition.variable.name",
+                                                                                    "source.yaml support.variable",
+                                                                                    "source.yaml entity.name.variable",
+                                                                                    "source.yaml constant.other.placeholder"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#001080"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs variable.other.constant",
+                                                                                    "source.cs variable.other.enummember",
+                                                                                    "source.css variable.other.constant",
+                                                                                    "source.css variable.other.enummember",
+                                                                                    "source.uss variable.other.constant",
+                                                                                    "source.uss variable.other.enummember",
+                                                                                    "text.xml variable.other.constant",
+                                                                                    "text.xml variable.other.enummember",
+                                                                                    "source.json variable.other.constant",
+                                                                                    "source.json variable.other.enummember",
+                                                                                    "source.yaml variable.other.constant",
+                                                                                    "source.yaml variable.other.enummember"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0070C1"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs meta.object-literal.key",
+                                                                                    "source.css meta.object-literal.key",
+                                                                                    "source.uss meta.object-literal.key",
+                                                                                    "text.xml meta.object-literal.key",
+                                                                                    "source.json meta.object-literal.key",
+                                                                                    "source.yaml meta.object-literal.key"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#001080"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs support.constant.property-value",
+                                                                                    "source.cs support.constant.font-name",
+                                                                                    "source.cs support.constant.media-type",
+                                                                                    "source.cs support.constant.media",
+                                                                                    "source.cs constant.other.color.rgb-value",
+                                                                                    "source.cs constant.other.rgb-value",
+                                                                                    "source.cs support.constant.color",
+                                                                                    "source.css support.constant.property-value",
+                                                                                    "source.css support.constant.font-name",
+                                                                                    "source.css support.constant.media-type",
+                                                                                    "source.css support.constant.media",
+                                                                                    "source.css constant.other.color.rgb-value",
+                                                                                    "source.css constant.other.rgb-value",
+                                                                                    "source.css support.constant.color",
+                                                                                    "source.uss support.constant.property-value",
+                                                                                    "source.uss support.constant.font-name",
+                                                                                    "source.uss support.constant.media-type",
+                                                                                    "source.uss support.constant.media",
+                                                                                    "source.uss constant.other.color.rgb-value",
+                                                                                    "source.uss constant.other.rgb-value",
+                                                                                    "source.uss support.constant.color",
+                                                                                    "text.xml support.constant.property-value",
+                                                                                    "text.xml support.constant.font-name",
+                                                                                    "text.xml support.constant.media-type",
+                                                                                    "text.xml support.constant.media",
+                                                                                    "text.xml constant.other.color.rgb-value",
+                                                                                    "text.xml constant.other.rgb-value",
+                                                                                    "text.xml support.constant.color",
+                                                                                    "source.json support.constant.property-value",
+                                                                                    "source.json support.constant.font-name",
+                                                                                    "source.json support.constant.media-type",
+                                                                                    "source.json support.constant.media",
+                                                                                    "source.json constant.other.color.rgb-value",
+                                                                                    "source.json constant.other.rgb-value",
+                                                                                    "source.json support.constant.color",
+                                                                                    "source.yaml support.constant.property-value",
+                                                                                    "source.yaml support.constant.font-name",
+                                                                                    "source.yaml support.constant.media-type",
+                                                                                    "source.yaml support.constant.media",
+                                                                                    "source.yaml constant.other.color.rgb-value",
+                                                                                    "source.yaml constant.other.rgb-value",
+                                                                                    "source.yaml support.constant.color"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0451a5"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs punctuation.definition.group.regexp",
+                                                                                    "source.cs punctuation.definition.group.assertion.regexp",
+                                                                                    "source.cs punctuation.definition.character-class.regexp",
+                                                                                    "source.cs punctuation.character.set.begin.regexp",
+                                                                                    "source.cs punctuation.character.set.end.regexp",
+                                                                                    "source.cs keyword.operator.negation.regexp",
+                                                                                    "source.cs support.other.parenthesis.regexp",
+                                                                                    "source.css punctuation.definition.group.regexp",
+                                                                                    "source.css punctuation.definition.group.assertion.regexp",
+                                                                                    "source.css punctuation.definition.character-class.regexp",
+                                                                                    "source.css punctuation.character.set.begin.regexp",
+                                                                                    "source.css punctuation.character.set.end.regexp",
+                                                                                    "source.css keyword.operator.negation.regexp",
+                                                                                    "source.css support.other.parenthesis.regexp",
+                                                                                    "source.uss punctuation.definition.group.regexp",
+                                                                                    "source.uss punctuation.definition.group.assertion.regexp",
+                                                                                    "source.uss punctuation.definition.character-class.regexp",
+                                                                                    "source.uss punctuation.character.set.begin.regexp",
+                                                                                    "source.uss punctuation.character.set.end.regexp",
+                                                                                    "source.uss keyword.operator.negation.regexp",
+                                                                                    "source.uss support.other.parenthesis.regexp",
+                                                                                    "text.xml punctuation.definition.group.regexp",
+                                                                                    "text.xml punctuation.definition.group.assertion.regexp",
+                                                                                    "text.xml punctuation.definition.character-class.regexp",
+                                                                                    "text.xml punctuation.character.set.begin.regexp",
+                                                                                    "text.xml punctuation.character.set.end.regexp",
+                                                                                    "text.xml keyword.operator.negation.regexp",
+                                                                                    "text.xml support.other.parenthesis.regexp",
+                                                                                    "source.json punctuation.definition.group.regexp",
+                                                                                    "source.json punctuation.definition.group.assertion.regexp",
+                                                                                    "source.json punctuation.definition.character-class.regexp",
+                                                                                    "source.json punctuation.character.set.begin.regexp",
+                                                                                    "source.json punctuation.character.set.end.regexp",
+                                                                                    "source.json keyword.operator.negation.regexp",
+                                                                                    "source.json support.other.parenthesis.regexp",
+                                                                                    "source.yaml punctuation.definition.group.regexp",
+                                                                                    "source.yaml punctuation.definition.group.assertion.regexp",
+                                                                                    "source.yaml punctuation.definition.character-class.regexp",
+                                                                                    "source.yaml punctuation.character.set.begin.regexp",
+                                                                                    "source.yaml punctuation.character.set.end.regexp",
+                                                                                    "source.yaml keyword.operator.negation.regexp",
+                                                                                    "source.yaml support.other.parenthesis.regexp"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#d16969"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs constant.character.character-class.regexp",
+                                                                                    "source.cs constant.other.character-class.set.regexp",
+                                                                                    "source.cs constant.other.character-class.regexp",
+                                                                                    "source.cs constant.character.set.regexp",
+                                                                                    "source.css constant.character.character-class.regexp",
+                                                                                    "source.css constant.other.character-class.set.regexp",
+                                                                                    "source.css constant.other.character-class.regexp",
+                                                                                    "source.css constant.character.set.regexp",
+                                                                                    "source.uss constant.character.character-class.regexp",
+                                                                                    "source.uss constant.other.character-class.set.regexp",
+                                                                                    "source.uss constant.other.character-class.regexp",
+                                                                                    "source.uss constant.character.set.regexp",
+                                                                                    "text.xml constant.character.character-class.regexp",
+                                                                                    "text.xml constant.other.character-class.set.regexp",
+                                                                                    "text.xml constant.other.character-class.regexp",
+                                                                                    "text.xml constant.character.set.regexp",
+                                                                                    "source.json constant.character.character-class.regexp",
+                                                                                    "source.json constant.other.character-class.set.regexp",
+                                                                                    "source.json constant.other.character-class.regexp",
+                                                                                    "source.json constant.character.set.regexp",
+                                                                                    "source.yaml constant.character.character-class.regexp",
+                                                                                    "source.yaml constant.other.character-class.set.regexp",
+                                                                                    "source.yaml constant.other.character-class.regexp",
+                                                                                    "source.yaml constant.character.set.regexp"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#811f3f"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs keyword.operator.quantifier.regexp",
+                                                                                    "source.css keyword.operator.quantifier.regexp",
+                                                                                    "source.uss keyword.operator.quantifier.regexp",
+                                                                                    "text.xml keyword.operator.quantifier.regexp",
+                                                                                    "source.json keyword.operator.quantifier.regexp",
+                                                                                    "source.yaml keyword.operator.quantifier.regexp"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#000000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs keyword.operator.or.regexp",
+                                                                                    "source.cs keyword.control.anchor.regexp",
+                                                                                    "source.css keyword.operator.or.regexp",
+                                                                                    "source.css keyword.control.anchor.regexp",
+                                                                                    "source.uss keyword.operator.or.regexp",
+                                                                                    "source.uss keyword.control.anchor.regexp",
+                                                                                    "text.xml keyword.operator.or.regexp",
+                                                                                    "text.xml keyword.control.anchor.regexp",
+                                                                                    "source.json keyword.operator.or.regexp",
+                                                                                    "source.json keyword.control.anchor.regexp",
+                                                                                    "source.yaml keyword.operator.or.regexp",
+                                                                                    "source.yaml keyword.control.anchor.regexp"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#EE0000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs constant.character",
+                                                                                    "source.cs constant.other.option",
+                                                                                    "source.css constant.character",
+                                                                                    "source.css constant.other.option",
+                                                                                    "source.uss constant.character",
+                                                                                    "source.uss constant.other.option",
+                                                                                    "text.xml constant.character",
+                                                                                    "text.xml constant.other.option",
+                                                                                    "source.json constant.character",
+                                                                                    "source.json constant.other.option",
+                                                                                    "source.yaml constant.character",
+                                                                                    "source.yaml constant.other.option"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#0000ff"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs constant.character.escape",
+                                                                                    "source.css constant.character.escape",
+                                                                                    "source.uss constant.character.escape",
+                                                                                    "text.xml constant.character.escape",
+                                                                                    "source.json constant.character.escape",
+                                                                                    "source.yaml constant.character.escape"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#EE0000"
+                                                                                   }
+                                                                  },
+                                                                  {
+                                                                      "scope":  [
+                                                                                    "source.cs entity.name.label",
+                                                                                    "source.css entity.name.label",
+                                                                                    "source.uss entity.name.label",
+                                                                                    "text.xml entity.name.label",
+                                                                                    "source.json entity.name.label",
+                                                                                    "source.yaml entity.name.label"
+                                                                                ],
+                                                                      "settings":  {
+                                                                                       "foreground":  "#000000"
+                                                                                   }
+                                                                  }
+                                                              ]
+                                        },
+    "editor.semanticTokenColorCustomizations":  {
+                                                    "rules":  {
+                                                                  "*:csharp":  "#202020",
+                                                                  "namespace:csharp":  "#202020",
+                                                                  "type:csharp":  "#267F99",
+                                                                  "class:csharp":  "#267F99",
+                                                                  "struct:csharp":  "#267F99",
+                                                                  "interface:csharp":  "#267F99",
+                                                                  "enum:csharp":  "#267F99",
+                                                                  "typeParameter:csharp":  "#267F99",
+                                                                  "method:csharp":  "#795E26",
+                                                                  "function:csharp":  "#795E26",
+                                                                  "variable:csharp":  "#001080",
+                                                                  "parameter:csharp":  "#001080",
+                                                                  "property:csharp":  "#001080",
+                                                                  "enumMember:csharp":  "#0070C1",
+                                                                  "keyword:csharp":  "#0000FF",
+                                                                  "operator:csharp":  "#202020",
+                                                                  "string:csharp":  "#A31515",
+                                                                  "number:csharp":  "#006B36",
+                                                                  "comment:csharp":  "#39733A"
+                                                              }
+                                                }
+}
